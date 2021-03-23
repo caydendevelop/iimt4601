@@ -26,8 +26,8 @@ class NavBar extends React.Component {
           <Link to="/CList">CList</Link>
         </Menu.Item>
 
-        <Menu.Item key="CourseReviewFront">
-          <Link to="/CourseReviewFront">CourseReviewFront</Link>
+        <Menu.Item key="ReviewFront">
+          <Link to="/ReviewFront">CourseReviewFront</Link>
         </Menu.Item>
 
         <Menu.Item key="CReview">
@@ -42,16 +42,16 @@ class NavBar extends React.Component {
           <Link to="/LoginPage">LoginPage</Link>
         </Menu.Item>
 
-        <Menu.Item key="Page1">
-          <Link to="/Page1">Page1</Link>
+        <Menu.Item key="AddReview">
+          <Link to="/AddReview">AddReview</Link>
         </Menu.Item>
 
-        <Menu.Item key="Page9">
-          <Link to="/Page9">Page9</Link>
+        <Menu.Item key="Timetable">
+          <Link to="/Timetable">Timetable</Link>
         </Menu.Item>
 
-        <Menu.Item key="SignUpPage">
-          <Link to="/SignUpPage">SignUpPage</Link>
+        <Menu.Item key="SignUp">
+          <Link to="/SignUp">SignUpPage</Link>
         </Menu.Item>
       </Menu>
     );
