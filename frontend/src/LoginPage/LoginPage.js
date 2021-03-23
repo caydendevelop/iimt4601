@@ -6,7 +6,7 @@ import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 function LoginPage() {
   return (
     <div className="positioning">
-      <img src="/images/logo1.png" alt="logo here" className="logodesign"></img>
+      
       <div>
         <h1>LOGIN</h1>
         <div className="parent">
@@ -30,6 +30,7 @@ function LoginPage() {
             <Button type="primary" className="antd-button-primary">Login</Button>
             <Button type="primary" className="antd-button-primary">Cancel</Button>
           </div>
+          <img src="/images/logo1.png" alt="logo here" className="logodesign"></img>
         </div>
       </div>
     </div>
