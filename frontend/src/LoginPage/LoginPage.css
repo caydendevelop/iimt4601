@@ -1,4 +1,5 @@
 .logodesign {
+    margin-top: 50px;
     height: 150px;
     width: auto;
 }
@@ -13,14 +14,16 @@
 }
 
 .positioning {
+    margin-top: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 400px;
 }
 
 .InputBox {
     margin-bottom: 20px;
-    width: 400px;
+    width: 300px;
 }
 
 .buttonsPositioning {
