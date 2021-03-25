@@ -71,7 +71,7 @@ const data = [
 function CList() {
   return (
     <div>
-    <Layout>
+    <Layout style={{ background: '#fefbefff' }}>
     <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 , background: '#fefbefff'}}>
     <Space direction="vertical"><Search className="InputBox" placeholder="input search text" onSearch={onSearch} enterButton /></Space>
       <div className="site-layout-background" style={{ padding: 24, minHeight: 380 }}>
