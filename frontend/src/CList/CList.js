@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import './CList.css'
-import { Layout, Menu, Row, Col, Breadcrumb } from 'antd';
-import { Table, Tag, Space, Input } from 'antd';
+import { Layout } from 'antd';
+import { Table, Space, Input } from 'antd';
 
-const { Header, Content, Footer } = Layout;
+const { Content} = Layout;
 const onSearch = value => console.log(value);
 const { Search } = Input;
 const columns = [
@@ -72,15 +72,7 @@ function CList() {
   return (
     <div>
     <Layout>
-    <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
-      <div className="logo" />
-      <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
-        <Menu.Item key="1">Course Information</Menu.Item>
-        <Menu.Item key="2">Course Review </Menu.Item>
-        <Menu.Item key="3">Personal Timetable</Menu.Item>
-      </Menu>
-    </Header>
-    <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
+    <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 , background: '#fefbefff'}}>
     <Space direction="vertical"><Search className="InputBox" placeholder="input search text" onSearch={onSearch} enterButton /></Space>
       <div className="site-layout-background" style={{ padding: 24, minHeight: 380 }}>
       <Table dataSource={data} columns={columns}/>
