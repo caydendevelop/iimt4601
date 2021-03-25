@@ -1,5 +1,5 @@
 import React from 'react';
-import './SignUpPage.css';
+import './SignUp.css';
 import { Button, Input, Space, AutoComplete } from 'antd';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 
