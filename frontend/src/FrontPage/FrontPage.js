@@ -9,7 +9,7 @@ const onSearch = value => console.log(value);
 function FrontPage() {
   return (
     <>
-        <img src="/images/logo1.png" alt="logo here" className="logo"></img>
+        <img src="/images/logo1.png" alt="logo here" className="logo" style={{width:150, height:100, marginBottom: 10}}></img>
         <div className="positioning">
             <Space direction="vertical" className="SearchBar">
                 <Search placeholder="Search here" allowClear onSearch={onSearch} size="middle" className="design" />
@@ -17,9 +17,9 @@ function FrontPage() {
             <Button type="text" className="ButtonDesign">Sign In</Button>
         </div>
         
-        <img src="/images/banner1.png" alt="banner here" className="banner"></img>
+        <img src="/images/banner1.png" alt="banner here" className="banner" style={{marginBottom: 1}}></img>
 
-        <div className="positioning">
+        <div className="positioning" style={{marginTop: 50}}>
             <a href="https://www.hku.hk/">
                 <figure>
                     <img src="/images/cinfo.png" alt="Course Information and Review" className="icon"></img>
