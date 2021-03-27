@@ -103,7 +103,7 @@ function AddReview() {
 	<div className="spanformatting">How was the workload? (1: light, 5: heavy)</div>
 	<div className="spanformatting"><Dropdown overlay={workloadmenu}>
       <Button>
-        Button <DownOutlined />
+        Workload <DownOutlined />
       </Button>
     </Dropdown></div>
 </div>

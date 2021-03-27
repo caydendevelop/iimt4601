@@ -65,6 +65,14 @@ const data = [
     desc: 'Desc (Hyperlink)',
     details: 'Select',
   },
+  {
+    key: '4',
+    name: 'IIMT4601 Information Systems Project Management',
+    stars: '****',
+    reviews: 1,
+    desc: 'Desc (Hyperlink)',
+    details: 'Select',
+  },
 ];
 
 
