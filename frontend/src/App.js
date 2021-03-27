@@ -28,7 +28,7 @@ function App() {
         <Route path="/LoginPage" exact component={LoginPage}/>
         <Route path="/Timetable" exact component={Timetable}/>
         <Route path="/AddReview" exact component={AddReview}/>
-        <Route path="/SignUpPage" exact component={SignUp}/>
+        <Route path="/SignUp" exact component={SignUp}/>
 
         
         

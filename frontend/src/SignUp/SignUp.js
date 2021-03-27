@@ -3,7 +3,7 @@ import './SignUp.css';
 import { Button, Input, Space, AutoComplete } from 'antd';
 import { EyeInvisibleOutlined, EyeTwoTone } from '@ant-design/icons';
 
-function SignUpPage() {
+function SignUp() {
     return (
         <div className="positioning">
             <img src="/images/logo1.png" alt="logo here" className="logodesign" ></img>
@@ -41,4 +41,4 @@ function SignUpPage() {
   );
 }
 
-export default SignUpPage;
+export default SignUp;

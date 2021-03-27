@@ -14,7 +14,6 @@ function LoginPage() {
           <AutoComplete
             className="InputBox"
             placeholder="Email"
-            options={[{ value: 'text 1' }, { value: 'text 2' }]}
           />
           </Input.Group>
 
