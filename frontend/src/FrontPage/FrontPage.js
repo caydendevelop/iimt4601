@@ -14,19 +14,19 @@ function FrontPage() {
             <Space direction="vertical" className="SearchBar">
                 <Search placeholder="Search here" allowClear onSearch={onSearch} size="middle" className="design" />
             </Space>
-            <Button type="text" className="ButtonDesign">Sign In</Button>
+            <Button type="text" className="ButtonDesign" href="./LoginPage">Sign In</Button>
         </div>
         
         <img src="/images/banner1.png" alt="banner here" className="banner" style={{marginBottom: 1}}></img>
 
         <div className="positioning" style={{marginTop: 50}}>
-            <a href="https://www.hku.hk/">
+            <a href="./ReviewFront">
                 <figure>
                     <img src="/images/cinfo.png" alt="Course Information and Review" className="icon"></img>
                     <figcaption>Course Information and Review</figcaption>
                 </figure>
             </a>
-            <a href="https://www.hku.hk/">
+            <a href="./Timetable">
                 <figure>
                     <img src="/images/planner.png" alt="Timetable Planner" className="icon"></img>
                     <figcaption>Timetable Planner</figcaption>

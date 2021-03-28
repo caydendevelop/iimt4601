@@ -24,7 +24,7 @@ function CReview() {
     <Col span={12}><Title level = {4}> Average Grade</Title> </Col>
     <Col span={12}><Title level = {4}> Average Workload</Title> </Col>
         </Row>
-        <Button className="antd-button-primary" type="primary" block style ={{width: 800}}>
+        <Button className="antd-button-primary" type="primary" block style ={{width: 800}} href="./AddReview">
       Add a Review
     </Button>
     <Input size="medium" placeholder="User123

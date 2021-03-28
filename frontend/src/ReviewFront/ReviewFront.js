@@ -17,7 +17,7 @@ function ReviewFront() {
         <div className="FacultyList">
             <h2>Browse by Faculty:</h2>
             <Button type="text" className="antd-button-text">Faculty of Arts</Button>
-            <Button type="text" className="antd-button-text">Faculty of Business and Economics</Button>
+            <Button type="text" className="antd-button-text"  href="./CList">Faculty of Business and Economics</Button>
             <Button type="text" className="antd-button-text">Faculty of Dentistry</Button>
             <Button type="text" className="antd-button-text">Faculty of Education</Button>
             <Button type="text" className="antd-button-text">Faculty of Engineering</Button>

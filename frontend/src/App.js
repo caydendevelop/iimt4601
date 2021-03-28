@@ -11,6 +11,7 @@ import LoginPage from './LoginPage/LoginPage.js'
 import Timetable from './Timetable/Timetable.js'
 import SignUp from './SignUp/SignUp.js'
 import AddReview from './AddReview/AddReview.js'
+import Subclasses from './Subclasses/Subclasses.js'
 
 import { Layout, Menu, Breadcrumb } from 'antd';
 
@@ -29,7 +30,7 @@ function App() {
         <Route path="/Timetable" exact component={Timetable}/>
         <Route path="/AddReview" exact component={AddReview}/>
         <Route path="/SignUp" exact component={SignUp}/>
-
+        <Route path="/Subclasses" exact component={Subclasses}/>
         
         
         

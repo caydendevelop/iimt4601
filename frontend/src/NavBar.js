@@ -53,6 +53,10 @@ class NavBar extends React.Component {
         <Menu.Item key="SignUp">
           <Link to="/SignUp">SignUpPage</Link>
         </Menu.Item>
+
+        <Menu.Item key="Subclasses">
+          <Link to="/Subclasses">Subclasses</Link>
+        </Menu.Item>
       </Menu>
     );
   }

@@ -47,7 +47,7 @@ const data = [
     reviews: 3,
     stars: '***',
     desc: 'Desc (Hyperlink)',
-    details: 'Select',
+    details: 'Subclass Information',
   },
   {
     key: '2',
@@ -55,7 +55,7 @@ const data = [
     stars: '**',
     reviews: 4,
     desc: 'Desc (Hyperlink)',
-    details: 'Select',
+    details: 'Subclass Information',
   },
   {
     key: '3',
@@ -63,15 +63,15 @@ const data = [
     stars: '*',
     reviews: 5,
     desc: 'Desc (Hyperlink)',
-    details: 'Select',
+    details: 'Subclass Information',
   },
   {
     key: '4',
-    name: 'IIMT4601 Information Systems Project Management',
+    name: <a href="./CReview">IIMT4601 Information Systems Project Management</a>,
     stars: '****',
     reviews: 1,
     desc: 'Desc (Hyperlink)',
-    details: 'Select',
+    details: <a href="./Subclasses">Subclass Information</a>,
   },
 ];
 
